@@ -75,7 +75,7 @@ export default function NewsItem(props) {
             fontFamily: "'Bebas Neue', sans-serif",
           }}
           >
-          category
+          {props.category}
         </Typography>
       </CardContent>
 

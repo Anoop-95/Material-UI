@@ -82,6 +82,7 @@ useEffect(() => {
         <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 2, width: '100%' }}>
           {articles.map((article, index) => (
             <NewsItem
+
             key={article.url}
             title={article.title}
             description={article.description}
@@ -89,6 +90,7 @@ useEffect(() => {
             image={article.image}
             url={article.url}
             source={article.source.name}
+            category={category}
            />
           ))}
         </Box>
