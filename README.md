@@ -20,3 +20,8 @@ It is a dynamic React-based news application that allows users to browse categor
 - 🎯 Driver.js (guided tour)
 - 🔐 localStorage (auth/session)
 - 🌐 GNews API
+
+## Overview:
+When you open the application, you'll be redirected to the login page. Please sign up with your details, then log in using your credentials. Once logged in, your tour will begin automatically.
+
+
