@@ -1,4 +1,4 @@
-#Project Name : #Newsapp
+#Project Name : Newsapp
 
 It is a dynamic React-based news application that allows users to browse categorized news, bookmark articles for later reading, and enjoy an interactive guided tour on first use. Built with Vite, MUI, and Driver.js, it offers a clean and intuitive UI with session-based login support.
 
