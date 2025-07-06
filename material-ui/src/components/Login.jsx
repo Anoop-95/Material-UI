@@ -146,7 +146,7 @@ const Login = () => {
           md={6}
           sx={{
             backgroundColor: '##b883c9',
-            backgroundImage: 'url(/bgimage.jpg)', 
+            
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             position: 'relative',

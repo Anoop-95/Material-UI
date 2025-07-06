@@ -56,8 +56,7 @@ useEffect(() => {
       return !UNWANTED_SOURCES.some(domain => article.source.url.includes(domain));
       });
 
-      console.log("Filtered Articles:", filteredArticles);
-      console.log(data.articles);
+      
       if (!filteredArticles) throw new Error("No articles found.");
 
        setArticles(filteredArticles);
