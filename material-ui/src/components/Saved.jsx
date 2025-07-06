@@ -81,7 +81,7 @@ const Saved = () => {
                       fontFamily: "'Bebas Neue', sans-serif",
                     }}
                   >
-                    Category
+                    {item.category}
                   </Typography>
                 </CardContent>
 

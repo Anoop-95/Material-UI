@@ -26,6 +26,7 @@ export default function NewsItem(props) {
       image: props.image,
       url: props.url,
       source: props.source,
+      category: props.category,
     }));
     toast('Article Saved. You can view it in By clicking Bookmark icon', {icon: '🥳'});
   }
